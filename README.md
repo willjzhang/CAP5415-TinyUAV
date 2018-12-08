@@ -1,12 +1,14 @@
 # TinyUAV
 ### CAP5415- Computer Vision
 
-A modification of the YOLO (You Only Look Once) algorithm for the detection of small unmanned aerial vehicles (UAVs) in images. This version uses upsampling and modified weights in order to recognize UAVs.
+A modification of the YOLO (You Only Look Once) algorithm for the detection of small unmanned aerial vehicles (UAVs) in images. This version uses modified weights in order to recognize UAVs.
 
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+* Tensorflow:
+* Keras:
+* OpenCV:
 
 ```
 Give examples
@@ -46,7 +48,6 @@ Give an example
 ## Languages Used
 
 * Python
-* Tensorflow
 
 
 ## Authors
