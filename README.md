@@ -18,19 +18,17 @@ Follow the instructions on the following sites to install the corresponding prer
 1- Download the dataset from https://engineering.purdue.edu/~bouman/UAV_Dataset/ (both videos and annotations)
 
 2- Assuming the videos are located at path\datasets\Videos, copy V2F.py to path\datasets\Videos and then run the script to convert the videos into image frames (output images should appear in the directory as jpg files). 
-```
-Give the example
-```
-3- Assuming the frames were kept at path\datasets\Videos and the annotations were kept at path\datasets\Video_Annotation, copy convertAnnotations.py to path\datasets\Video_Annotation then make the following change on convertAnnotations.py:
-```
-line 15    ... "path\datasets\Video_Annotation\Clip_%d_frame%d.jpg" %(ClipIndx,L))    #Change to where you put the image frames but make sure you keep "
-```
 
-And repeat
+3- Assuming the frames were kept at path\datasets\Videos and the annotations were kept at path\datasets\Video_Annotation, copy convertAnnotations.py to path\datasets\Video_Annotation then modify convertAnnotations.py line 15 to your the actual path. 
+```
+line 15    ... "path\datasets\Video_Annotation\Clip_%d_frame%d.jpg" %(ClipIndx,L))    #Change to where you put the image frames but make sure you keep "\Clip_%d_frame%d.jpg"
+```
+As suggested in the comment, keep Clip_%d_frame%d.jpg" %(ClipIndx,L) as it is so that the annotations match with the corresponding frames.
 
-```
-until finished
-```
+4- Run the convertAnnotations.py script. A new .txt file called train.txt should be created.
+
+5- Copy and replace the train.txt into the repository (A train.txt was kept there for reference only and should be replaced with this new one)
+
 ### Installing
 
 How to get a development env running
