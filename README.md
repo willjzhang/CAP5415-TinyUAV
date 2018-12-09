@@ -27,42 +27,34 @@ As suggested in the comment, keep Clip_%d_frame%d.jpg" %(ClipIndx,L) as it is so
 
 4- Run the convertAnnotations.py script. A new .txt file called train.txt should be created.
 
-5- Copy and replace the train.txt into the repository (A train.txt was kept there for reference only and should be replaced with this new one)
+5- Copy and replace the train.txt into the ...\CAP5415-TinyUAV repository (A train.txt was kept there for reference only and should be replaced with this new one)
 
-### Installing
+### Training
+1- Download pretrained weights at https://pjreddie.com/darknet/yolo/.
 
-How to get a development env running
+2- Put the .weights file downloaded into ...\CAP5415-TinyUAV
 
-Say what the step will be
+3- Run the convert.py to convert .weights file into .h5
 
-```
-Give the example
-```
+4- Simply modify train.py for hyperparameters, then run train.py script to begin training.
 
-And repeat
 
-```
-until finished
-```
+### Testing 
 
-End with an example of getting some data out of the system or using it for a little demo
-
-### Running the tests
-
+Pending
 Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 
 ## Languages Used
 
 * Python
+
+
+## Credits
+
+* Github user pjreddie for the original YOLOv3 
+* Github user qqwweee for baseline keras YOLO model (https://github.com/qqwweee/keras-yolo3)
+
 
 
 ## Authors
