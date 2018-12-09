@@ -17,11 +17,13 @@ Follow the instructions on the following sites to install the corresponding prer
 
 1- Download the dataset from https://engineering.purdue.edu/~bouman/UAV_Dataset/ (both videos and annotations)
 
-2- Assuming the videos are located at path\datasets\videos, copy V2F.py in the same directory and then run the script to convert the videos into image frames (output images will appear in the directory in jpg format).
-
-3- Assuming the frames were kept at path\datasets\videos,   
+2- Assuming the videos are located at path\datasets\Videos, copy V2F.py to path\datasets\Videos and then run the script to convert the videos into image frames (output images should appear in the directory as jpg files). 
 ```
 Give the example
+```
+3- Assuming the frames were kept at path\datasets\Videos and the annotations were kept at path\datasets\Video_Annotation, copy convertAnnotations.py to path\datasets\Video_Annotation then make the following change:
+```
+Give th
 ```
 
 And repeat
