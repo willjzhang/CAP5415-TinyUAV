@@ -6,14 +6,29 @@ A modification of the YOLO (You Only Look Once) algorithm for the detection of s
 
 ### Prerequisites
 
-* Tensorflow:
-* Keras:
-* OpenCV:
+Follow the instructions on the following sites to install the corresponding prerequisites.
+* Tensorflow: https://www.tensorflow.org/install/
+* Keras: https://keras.io/#installation
+* OpenCV: https://pypi.org/project/opencv-python/
+
+* keras-metrics: https://github.com/netrack/keras-metrics
+
+### Dataset preprocessing
+
+Download the dataset from https://engineering.purdue.edu/~bouman/UAV_Dataset/
+
+
+Say what the step will be
 
 ```
-Give examples
+Give the example
 ```
 
+And repeat
+
+```
+until finished
+```
 ### Installing
 
 How to get a development env running
