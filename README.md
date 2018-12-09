@@ -21,9 +21,9 @@ Follow the instructions on the following sites to install the corresponding prer
 ```
 Give the example
 ```
-3- Assuming the frames were kept at path\datasets\Videos and the annotations were kept at path\datasets\Video_Annotation, copy convertAnnotations.py to path\datasets\Video_Annotation then make the following change:
+3- Assuming the frames were kept at path\datasets\Videos and the annotations were kept at path\datasets\Video_Annotation, copy convertAnnotations.py to path\datasets\Video_Annotation then make the following change on convertAnnotations.py:
 ```
-Give th
+line 15    ... "path\datasets\Video_Annotation\Clip_%d_frame%d.jpg" %(ClipIndx,L))    #Change to where you put the image frames but make sure you keep "
 ```
 
 And repeat
