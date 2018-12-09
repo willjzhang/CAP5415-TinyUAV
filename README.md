@@ -16,7 +16,9 @@ Follow the instructions on the following sites to install the corresponding prer
 ### Dataset preprocessing
 
 1- Download the dataset from https://engineering.purdue.edu/~bouman/UAV_Dataset/ (both videos and annotations)
+
 2- Assuming the videos are located at path\datasets\videos, place V2F.py in the same directory and then run the script to convert the videos into image frames (output images will appear in the directory in jpg format).
+
 3-  
 ```
 Give the example
