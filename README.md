@@ -19,7 +19,7 @@ Follow the instructions on the following sites to install the corresponding prer
 
 2- Assuming the videos are located at path\datasets\videos, copy V2F.py in the same directory and then run the script to convert the videos into image frames (output images will appear in the directory in jpg format).
 
-3-  
+3- Assuming the frames were kept at path\datasets\videos,   
 ```
 Give the example
 ```
