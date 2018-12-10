@@ -6,7 +6,7 @@ A modification of the YOLO (You Only Look Once) algorithm for the detection of s
 
 ### Prerequisites
 
-Follow the instructions on the following sites to install the corresponding prerequisites.
+Follow the instructions on the corresponding sites for installation instructions.
 * Tensorflow: https://www.tensorflow.org/install/
 * Keras: https://keras.io/#installation
 * OpenCV: https://pypi.org/project/opencv-python/
