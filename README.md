@@ -19,7 +19,7 @@ Follow the instructions on the corresponding sites for installation instructions
 
 2- Assuming the videos are located at path\datasets\Videos, copy V2F.py to path\datasets\Videos and then run the script to convert the videos into image frames (output images should appear in the directory as jpg files). 
 
-3- Assuming the frames were kept at path\datasets\Videos and the annotations were kept at path\datasets\Video_Annotation, copy convertAnnotations.py to path\datasets\Video_Annotation then modify convertAnnotations.py line 15 to your the actual path of the image frames. 
+3- Assuming the frames were kept at path\datasets\Videos and the annotations were kept at path\datasets\Video_Annotation, copy convertAnnotations.py to path\datasets\Video_Annotation then modify convertAnnotations.py line 15 to the actual path of the image frames. 
 ```
 line 15    ... "path\datasets\Video_Annotation\Clip_%d_frame%d.jpg" %(ClipIndx,L))    #Change to where you put the image frames but make sure you keep "\Clip_%d_frame%d.jpg"
 ```
