@@ -59,6 +59,6 @@ Explain how to run the automated tests for this system
 
 ## Authors
 
-* **Abdul Aziz Santarisi** - *Contribution*
-* **Eugene Lucino** - *Contribution*
-* **William Zhang** - *Contribution*
+* **Abdul Aziz Santarisi** - dataset preparation, training
+* **Eugene Lucino** - research of different detection algorithms, technical writer
+* **William Zhang** - baseline using SSD architecture
